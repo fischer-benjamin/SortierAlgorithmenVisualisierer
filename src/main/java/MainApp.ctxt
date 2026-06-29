@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MainApp
+comment0.text=\r\n\ Die\ Hauptanwendung\ {@code\ MainApp}\ initialisiert\ die\ JavaFX-Benutzeroberfl\u00E4che\r\n\ f\u00FCr\ das\ Dashboard\ zur\ Sortier-Visualisierung.\r\n\ <p>Sie\ verwaltet\ die\ UI-Steuerelemente\ zur\ Anpassung\ von\ Array-Gr\u00F6\u00DFe,\r\n\ Algorithmen-Auswahl,\ Soundprofilen\ sowie\ der\ Ausf\u00FChrungsgeschwindigkeit.</p>\r\n\r\n\ @author\ Benjamin\ Fischer\ (erstellt\ unter\ Verwendung\ von\ KI-Assistenz)\r\n\ @version\ 1.0\r\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ Startet\ die\ JavaFX-Anwendung,\ baut\ den\ Szenengraphen\ auf\ und\ bindet\ die\r\n\ UI-Komponenten\ an\ die\ Logik\ des\ {@link\ SortierManager}s.\r\n\r\n\ @param\ primaryStage\ das\ Hauptfenster\ der\ Anwendung\r\n
+comment2.params=
+comment2.target=void\ generiereNeuesArray()
+comment2.text=\r\n\ Generiert\ ein\ neues,\ sequentiell\ aufsteigendes\ Array\ basierend\ auf\ der\r\n\ eingegebenen\ Elementanzahl.\ Sch\u00FCtzt\ vor\ Fehleingaben\ durch\ Wertebegrenzung\r\n\ ($5\ \\le\ \\text{Gr\u00F6\u00DFe}\ \\le\ 20000$).\r\n
+comment3.params=
+comment3.target=void\ updateLabels()
+comment3.text=\r\n\ Aktualisiert\ die\ Text-Labels\ f\u00FCr\ Vergleiche\ und\ Tauschaktionen\ in\ der\ UI.\r\n\ Wird\ als\ Callback\ an\ den\ {@link\ SortierManager}\ \u00FCbergeben.\r\n
+comment4.params=
+comment4.target=void\ starteAblauf()
+comment4.text=\r\n\ Startet\ den\ gesamten\ Animationsablauf\ (Mischen,\ Pause,\ Sortieren,\ Erfolgs-Welle)\r\n\ in\ einem\ separaten\ Worker-Thread,\ um\ ein\ Einfrieren\ der\ JavaFX-GUI\ zu\ verhindern.\r\n\ W\u00E4hrend\ des\ Vorgangs\ werden\ die\ Steuerelemente\ gesperrt.\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ Haupteinstiegspunkt\ der\ Java-Anwendung.\r\n\r\n\ @param\ args\ Startargumente\ der\ Kommandozeile\r\n
+numComments=6
