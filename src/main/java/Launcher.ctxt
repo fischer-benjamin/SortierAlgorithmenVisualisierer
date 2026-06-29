@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Launcher
-comment0.text=\r\n\ Der\ {@code\ Launcher}\ dient\ als\ separater\ Einstiegspunkt\ f\u00FCr\ die\ Anwendung.\r\n\ <p>\r\n\ Er\ wird\ prim\u00E4r\ verwendet,\ um\ Kompatibilit\u00E4tsprobleme\ beim\ Starten\ von\r\n\ JavaFX-Anwendungen\ aus\ bestimmten\ Entwicklungsumgebungen\ (wie\ z.\ B.\ als\ JAR-Datei\r\n\ oder\ in\ einigen\ IDE-Konfigurationen)\ zu\ umgehen,\ wenn\ die\ Hauptklasse\ direkt\ von\r\n\ {@code\ Application}\ erbt.\r\n\ </p>\r\n\r\n\ @author\ Benjamin\ Fischer\ (erstellt\ unter\ Verwendung\ von\ KI-Assistenz)\r\n\ @version\ 1.0\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment1.text=\r\n\ Die\ Hauptmethode\ (Main-Methode),\ die\ beim\ Starten\ des\ Programms\ von\ der\r\n\ JVM\ aufgerufen\ wird.\ Sie\ reicht\ die\ Argumente\ direkt\ an\ die\ eigentliche\r\n\ JavaFX-Hauptanwendung\ weiter.\r\n\r\n\ @param\ args\ die\ anwendungsspezifischen\ Befehlszeilenargumente\r\n
-numComments=2

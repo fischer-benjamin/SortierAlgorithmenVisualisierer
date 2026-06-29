@@ -1,8 +1,6 @@
+# Maven
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.kotlin
+.mvn/wrapper/maven-wrapper.jar
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -37,3 +35,11 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# Logs
+*.log
+
+# Temporäre Dateien von Java-Programmen
+*.class
+*.jar
+*.war
+*.ear

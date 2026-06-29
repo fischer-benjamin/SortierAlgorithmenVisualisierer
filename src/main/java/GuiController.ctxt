@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=GuiController
-comment0.text=\r\n\ Der\ {@code\ GuiController}\ ist\ f\u00FCr\ die\ grafische\ Darstellung\ der\ Sortierabl\u00E4ufe\ zust\u00E4ndig.\r\n\ <p>\r\n\ Er\ berechnet\ die\ Dimensionen\ der\ Sortierbalken\ dynamisch\ anhand\ der\ aktuellen\r\n\ Canvas-Gr\u00F6\u00DFe\ und\ zeichnet\ das\ Array-Abbild\ in\ Echtzeit\ auf\ die\ Benutzeroberfl\u00E4che.\r\n\ </p>\r\n\r\n\ @author\ Benjamin\ Fischer\ (erstellt\ unter\ Verwendung\ von\ KI-Assistenz)\r\n\ @version\ 1.0\r\n
-comment1.params=canvas\ array
-comment1.target=void\ updateVisualisierungViaCanvas(javafx.scene.canvas.Canvas,\ int[])
-comment1.text=\r\n\ Aktualisiert\ die\ visuelle\ Darstellung\ des\ Arrays\ auf\ dem\ \u00FCbergebenen\ Canvas.\r\n\ <p>\r\n\ Die\ Methode\ l\u00F6scht\ zuerst\ das\ gesamte\ Zeichenfeld\ und\ berechnet\ anschlie\u00DFend\r\n\ f\u00FCr\ jedes\ Element\ des\ Arrays\ einen\ proportional\ skalierten\ vertikalen\ Balken.\r\n\ Die\ Balkenbreite\ und\ -h\u00F6he\ passen\ sich\ dabei\ automatisch\ an\ die\ aktuellen\r\n\ Dimensionen\ des\ Canvas\ an.\r\n\ </p>\r\n\r\n\ @param\ canvas\ das\ {@link\ Canvas}-Objekt,\ auf\ dem\ gezeichnet\ werden\ soll\r\n\ @param\ array\ \ das\ darzustellende\ Ganzzahl-Array\r\n
-numComments=2
